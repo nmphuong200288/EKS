@@ -1,5 +1,5 @@
 # aws region
-region = "ap-northeast-2"
+# region = "ap-southeast-2"
 
 # eks cluster name
-cluster_name = "platformwale"
+# cluster_name = "myeks"

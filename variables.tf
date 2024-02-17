@@ -1,12 +1,13 @@
 variable "region" {
   type        = string
   description = "aws region where the resources are being created"
+  default     = "ap-southeast-2"
 }
 
 variable "vpc_name" {
   type        = string
   description = "name of the vpc to be created"
-  default     = "platformwale"
+  default     = "eksvpc"
 }
 
 variable "vpc_cidr" {
@@ -18,11 +19,11 @@ variable "vpc_cidr" {
 variable "cluster_name" {
   type        = string
   description = "eks cluster name"
-  default     = "platformwale"
+  default     = "myeks"
 }
 
 variable "k8s_version" {
   type        = string
   description = "k8s version"
-  default     = "1.27"
+  default     = "1.28"
 }
