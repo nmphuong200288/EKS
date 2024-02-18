@@ -1,3 +1,4 @@
+We can directly define value in variables.tf file or define in .tfvar file
 # aws region
 # region = "ap-southeast-2"
 
